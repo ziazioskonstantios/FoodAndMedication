@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.e349a38c.css",
-    "main.js": "/static/js/main.5c954ec9.js",
-    "index.html": "/index.html",
-    "main.e349a38c.css.map": "/static/css/main.e349a38c.css.map",
-    "main.5c954ec9.js.map": "/static/js/main.5c954ec9.js.map"
+    "main.css": "/FoodAndMedication/static/css/main.e349a38c.css",
+    "main.js": "/FoodAndMedication/static/js/main.5c954ec9.js",
+    "index.html": "/FoodAndMedication/index.html",
+    "main.e349a38c.css.map": "/FoodAndMedication/static/css/main.e349a38c.css.map",
+    "main.5c954ec9.js.map": "/FoodAndMedication/static/js/main.5c954ec9.js.map"
   },
   "entrypoints": [
     "static/css/main.e349a38c.css",
