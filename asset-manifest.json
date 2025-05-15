@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ziazioskonstantios/FoodAndMedication.git/static/css/main.e349a38c.css",
+    "main.js": "/ziazioskonstantios/FoodAndMedication.git/static/js/main.5c954ec9.js",
+    "index.html": "/ziazioskonstantios/FoodAndMedication.git/index.html",
+    "main.e349a38c.css.map": "/ziazioskonstantios/FoodAndMedication.git/static/css/main.e349a38c.css.map",
+    "main.5c954ec9.js.map": "/ziazioskonstantios/FoodAndMedication.git/static/js/main.5c954ec9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e349a38c.css",
+    "static/js/main.5c954ec9.js"
+  ]
+}
