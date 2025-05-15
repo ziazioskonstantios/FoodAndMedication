@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import landingImage from './assets/food-medication-new.png';
+import landingImage from '../assets/food-medication-new.png';
 
 export default function LandingPage() {
   const navigate = useNavigate();
