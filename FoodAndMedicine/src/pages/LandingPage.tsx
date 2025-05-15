@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import landingImage from './assets/food-medication-new.png';
 
 export default function LandingPage() {
   const navigate = useNavigate();
@@ -18,7 +19,7 @@ export default function LandingPage() {
           <img
           width="340px"
           height="412px"
-            src="/assets/food-medication-new.png"
+            src={landingImage}
             alt="Food and Medication"
             className="w-full h-full object-cover object-center"
           />
