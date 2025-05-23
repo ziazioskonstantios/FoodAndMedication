@@ -56,8 +56,14 @@ export default function LoginPage(): JSX.Element {
 
         <p className="text-center text-gray-700 mt-6 text-sm">
           Don’t have an account?{' '}
-          <Link to="/signup" className="text-orange-600 font-semibold hover:underline">
+          <Link to="/subscribe" className="text-orange-600 font-semibold hover:underline">
             Sign up
+          </Link>
+        </p>
+             <p className="text-center text-gray-700 mt-6 text-sm">
+          Forgot your password?{' '}
+          <Link to="/remind-password" className="text-orange-600 font-semibold hover:underline">
+           Remind me my password
           </Link>
         </p>
       </div>

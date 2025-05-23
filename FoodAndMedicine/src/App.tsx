@@ -10,6 +10,8 @@ import LandingPage from './pages/LandingPage';
 import MedicationImportMenuPage from './pages/MedicationImportMenuPage';
 import MedicationImportPage from './pages/MedicationImportPage';
 import MyMedicinePage from './pages/MyMedicinePage';
+import SubscribePage from './pages/SubscribePage';
+import RemindPasswordPage from './pages/RemindPasswordPage';
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/subscribe" element={<SubscribePage />} />
+        <Route path="/remind-password" element={<RemindPasswordPage />} />
         <Route path="/medication-import-menu" element={<MedicationImportMenuPage />} />
         <Route path="/medication-import" element={<MedicationImportPage />} />
         <Route path="/main" element={<MainPage />} />
