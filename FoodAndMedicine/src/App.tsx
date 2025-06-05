@@ -12,6 +12,7 @@ import MedicationImportPage from './pages/MedicationImportPage';
 import MyMedicinePage from './pages/MyMedicinePage';
 import SubscribePage from './pages/SubscribePage';
 import RemindPasswordPage from './pages/RemindPasswordPage';
+import PrescriptionUploadPage from './pages/PrescriptionUploadPage';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/add-or-remove-medicine" element={<AddOrRemoveMedicine />} />
         <Route path="/last-meals" element={<LastMeals />} />
         <Route path="/add-or-remove-meal" element={<AddOrRemoveMeal />} />
+        <Route path="/medication-import-upload" element={<PrescriptionUploadPage />} />
       </Routes>
     </Router>
   );

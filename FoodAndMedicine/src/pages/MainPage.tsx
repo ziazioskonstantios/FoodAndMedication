@@ -10,7 +10,7 @@ export default function MenuPage(): JSX.Element {
   const navigate = useNavigate();
 
   const menuItems: MenuItem[] = [
-    { label: "Scan Prescription", route: "/medication-import-menu" },
+    { label: "Add Prescription", route: "/medication-import-menu" },
     { label: "Medication list", route: "/my-medicines" },
     { label: "Food interaction Checker", route: "/food-interactions" },
     { label: "Taking Medication Log", route: "/medication-log" },

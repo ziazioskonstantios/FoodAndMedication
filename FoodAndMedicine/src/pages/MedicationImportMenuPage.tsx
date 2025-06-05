@@ -9,16 +9,16 @@ const MedicationImportMenuPage: React.FC = () => {
       <div className="flex flex-col gap-6 w-full max-w-xs text-center">
         <button
           className="bg-orange-500 text-white py-3 rounded-xl font-semibold shadow hover:bg-orange-600 transition"
-          onClick={() => navigate('/medication-import')}
+          onClick={() => navigate('/medication-import-upload')}
         >
-          Import for me
+          Insert from Image
         </button>
 
         <button
           className="bg-amber-950 text-white py-3 rounded-xl font-semibold shadow hover:opacity-90 transition"
           onClick={() => console.log('Log and take my medication')}
         >
-          log and take my medication
+          Type your Medication
         </button>
 
         <button
