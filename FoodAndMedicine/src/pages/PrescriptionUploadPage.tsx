@@ -2,6 +2,8 @@ import React, { useState, ChangeEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Tesseract from 'tesseract.js';
 
+
+
 const PrescriptionUploadPage: React.FC = () => {
   const navigate = useNavigate();
   const [image, setImage] = useState<File | null>(null);
@@ -73,17 +75,16 @@ const PrescriptionUploadPage: React.FC = () => {
             </div>
 
             <button
-  onClick={() => navigate('/my-medicines')}
-  disabled={!scannedText.trim()}
-  className={`py-2 px-4 rounded-full font-semibold transition ${
-    scannedText.trim()
-      ? 'bg-green-600 text-white hover:bg-green-700'
-      : 'bg-gray-300 text-gray-500 cursor-not-allowed'
-  }`}
->
-  The medicine is correct, add to my prescriptions
-</button>
-
+              onClick={() => navigate(`/create-medicine/${encodeURIComponent(scannedText.trim())}`)}
+              disabled={!scannedText.trim()}
+              className={`py-2 px-4 rounded-full font-semibold transition ${
+                scannedText.trim()
+                  ? 'bg-green-600 text-white hover:bg-green-700'
+                  : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+              }`}
+            >
+              The medicine is correct, add to my prescriptions
+            </button>
           </>
         )}
       </div>
