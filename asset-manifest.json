@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/FoodAndMedication/static/css/main.ef015d1f.css",
-    "main.js": "/FoodAndMedication/static/js/main.ad80313b.js",
+    "main.css": "/FoodAndMedication/static/css/main.af83d6c8.css",
+    "main.js": "/FoodAndMedication/static/js/main.695af10b.js",
     "static/media/food-medication-new.png": "/FoodAndMedication/static/media/food-medication-new.4d5cbff1f29a9b1ede6a.png",
     "index.html": "/FoodAndMedication/index.html",
-    "main.ef015d1f.css.map": "/FoodAndMedication/static/css/main.ef015d1f.css.map",
-    "main.ad80313b.js.map": "/FoodAndMedication/static/js/main.ad80313b.js.map"
+    "main.af83d6c8.css.map": "/FoodAndMedication/static/css/main.af83d6c8.css.map",
+    "main.695af10b.js.map": "/FoodAndMedication/static/js/main.695af10b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef015d1f.css",
-    "static/js/main.ad80313b.js"
+    "static/css/main.af83d6c8.css",
+    "static/js/main.695af10b.js"
   ]
 }
